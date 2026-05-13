@@ -25,7 +25,7 @@ const Card = ({ id, name, price, category, description, image }) => {
         )}
 
         {/* Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0F2A27] via-transparent to-transparent opacity-80"></div>
+        <div className="absolute inset-0 bg-linear-to-t from-[#0F2A27] via-transparent to-transparent opacity-80"></div>
 
         {/* Category */}
         <div className="absolute top-5 left-5">
