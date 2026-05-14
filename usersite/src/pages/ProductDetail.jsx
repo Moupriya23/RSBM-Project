@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 
-const WA_NUMBER = "919876543210"; // 👈 your number
+const WA_NUMBER = "91"; // 👈 your number
 
 const waLink = (name, price) =>
   `https://wa.me/${WA_NUMBER}?text=Hi!%20I'd%20like%20to%20order%20*${encodeURIComponent(name)}*%20for%20*${encodeURIComponent(price)}*`;
